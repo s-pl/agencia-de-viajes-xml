@@ -1,5 +1,5 @@
 # Travel Agency XML & DTD
-This is a basic project of a Travel Agency made in emulates how a structure of the info would look like.
+This is a basic project that emulates how a structure of the info of a travel agency would look like.
 
 
 ## Getting Started
