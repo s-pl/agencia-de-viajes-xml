@@ -18,7 +18,7 @@ After installing the prerrequisites, you´ll need to follow this instructions:
 
 First, we clone this repository
 
-    ``git clone https://github.com/s-pl/agencia-de-viajes-xml.git ``
+    git clone https://github.com/s-pl/agencia-de-viajes-xml.git 
 
 And open it with Notepad ++
 
