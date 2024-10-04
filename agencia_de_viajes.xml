@@ -1,0 +1,105 @@
+<!DOCTYPE agencia_viajes SYSTEM "agencia_de_viajes.dtd">
+
+<agencia_viajes>
+    <sucursales>
+        <sucursal>
+            <estructura>
+                <director>Juan Pérez</director>
+                <subdirector>María González</subdirector>
+                <encargado>Carlos Rodríguez</encargado>
+                <agentes_de_ventas>
+                    <agente id="001">
+                        <nombre>Lucía</nombre>
+                        <apellidos>Martínez López</apellidos>
+                        <ventas>
+                            <venta id="1001">
+                                <detalles>Reserva de paquete vacacional a Fuerteventura</detalles>
+                                <monto_total>1200</monto_total>
+                                <fecha_ejecucion>2024-05-10</fecha_ejecucion>
+                            </venta>
+                            <venta id="1002">
+                                <detalles>Billetes aéreos ida y vuelta a Lanzarote</detalles>
+                                <monto_total>300</monto_total>
+                                <fecha_ejecucion>2024-06-15</fecha_ejecucion>
+                            </venta>
+                        </ventas>
+                    </agente>
+                    <agente id="002">
+                        <nombre>Javier</nombre>
+                        <apellidos>Hernández Suárez</apellidos>
+                        <ventas>
+                            <venta id="1003">
+                                <detalles>Crucero por el Mediterráneo</detalles>
+                                <monto_total>2500</monto_total>
+                                <fecha_ejecucion>2024-07-01</fecha_ejecucion>
+                            </venta>
+                        </ventas>
+                    </agente>
+                </agentes_de_ventas>
+            </estructura>
+            <localizacion>
+                <calle>Avenida Tres de Mayo, 5</calle>
+                <zip>38003</zip>
+                <ciudad>Santa Cruz de Tenerife</ciudad>
+            </localizacion>
+            <ofertas>
+                <oferta id="001">
+                    <titulo>Paquete a La Palma</titulo>
+                    <descripcion>Viaje todo incluido a La Palma durante 5 días</descripcion>
+                    <precio>800</precio>
+                    <hasta>2024-12-31</hasta>
+                </oferta>
+                <oferta id="002">
+                    <titulo>Crucero Islas Canarias</titulo>
+                    <descripcion>Crucero con paradas en Tenerife, Gran Canaria y Lanzarote</descripcion>
+                    <precio>1500</precio>
+                    <hasta>2024-11-30</hasta>
+                </oferta>
+            </ofertas>
+        </sucursal>
+        <sucursal>
+            <estructura>
+                <director>Isabel Santana</director>
+                <subdirector>Pedro Medina</subdirector>
+                <encargado>Raúl Delgado</encargado>
+                <agentes_de_ventas>
+                    <agente id="003">
+                        <nombre>Paula</nombre>
+                        <apellidos>García Pérez</apellidos>
+                        <ventas>
+                            <venta id="1004">
+                                <detalles>Paquete vacacional a Madeira</detalles>
+                                <monto_total>1100</monto_total>
+                                <fecha_ejecucion>2024-08-10</fecha_ejecucion>
+                            </venta>
+                        </ventas>
+                    </agente>
+                    <agente id="004">
+                        <nombre>Manuel</nombre>
+                        <apellidos>Sánchez Domínguez</apellidos>
+                        <ventas>
+                            <venta id="1005">
+                                <detalles>Escapada a Gran Canaria para dos personas</detalles>
+                                <monto_total>600</monto_total>
+                                <fecha_ejecucion>2024-09-05</fecha_ejecucion>
+                            </venta>
+                        </ventas>
+                    </agente>
+                </agentes_de_ventas>
+            </estructura>
+            <localizacion>
+                <calle>Calle Triana, 45</calle>
+                <zip>35002</zip>
+                <ciudad>Las Palmas de Gran Canaria</ciudad>
+            </localizacion>
+            <ofertas>
+                <oferta id="003">
+                    <titulo>Semana en Lanzarote</titulo>
+                    <descripcion>Paquete de 7 días con alojamiento y coche de alquiler</descripcion>
+                    <precio>950</precio>
+                    <hasta>2024-10-31</hasta>
+                </oferta>
+            </ofertas>
+        </sucursal>
+    </sucursales>
+</agencia_viajes>

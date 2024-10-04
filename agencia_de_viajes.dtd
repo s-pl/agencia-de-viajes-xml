@@ -1,0 +1,37 @@
+<!ELEMENT agencia_viajes (sucursales+)>
+
+<!ELEMENT sucursales (sucursal*)>
+<!ELEMENT sucursal (estructura, localizacion, ofertas)>
+
+<!ELEMENT estructura (director, subdirector, encargado, agentes_de_ventas)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT subdirector (#PCDATA)>
+<!ELEMENT encargado (#PCDATA)>
+
+<!ELEMENT agentes_de_ventas (agente+)>
+<!ELEMENT agente (nombre, apellidos, ventas)>
+<!ATTLIST agente id CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT ventas (venta+)>
+<!ELEMENT venta (detalles, monto_total, fecha_ejecucion)>
+<!ATTLIST venta id CDATA #REQUIRED>
+
+<!ELEMENT detalles (#PCDATA)>
+<!ELEMENT monto_total (#PCDATA)>
+<!ELEMENT fecha_ejecucion (#PCDATA)>
+
+<!ELEMENT localizacion (calle, zip, ciudad)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+
+<!ELEMENT ofertas (oferta+)>
+<!ELEMENT oferta (titulo, descripcion, precio, hasta)>
+<!ATTLIST oferta id CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT hasta (#PCDATA)>
